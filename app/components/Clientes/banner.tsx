@@ -1,3 +1,4 @@
+import Image from 'next/image';
 const images = [
     '/brands/AHU.png',
     '/brands/BEL.png',
@@ -18,21 +19,21 @@ const Banner = () => {
                 <section className="flex items-center animate-horizontal-scroll">
                     {images.map((image,id) => (
                         <div className="max-w-80 min-w-60 pl-16" key={id}>
-                            <img src={image} alt={`Logo `+id} />
+                            <Image src={image} alt={`Logo `+id} width={240} height={100}/>
                         </div>
                     ))}
                 </section>
                 <section className="flex items-center animate-horizontal-scroll">
                     {images.map((image,id) => (
                         <div className="max-w-80 min-w-60 pl-16" key={id}>
-                            <img src={image} alt={`Logo `+id} />
+                            <Image src={image} alt={`Logo `+id} width={240} height={100}/>
                         </div>
                     ))}
                 </section>
                 <section className="flex items-center animate-horizontal-scroll">
                     {images.map((image,id) => (
                         <div className="max-w-80 min-w-60 pl-16" key={id}>
-                            <img src={image} alt={`Logo `+id} />
+                            <Image src={image} alt={`Logo `+id} width={240} height={100}/>
                         </div>
                     ))}
                 </section>
