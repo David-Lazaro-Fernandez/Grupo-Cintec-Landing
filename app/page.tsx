@@ -5,6 +5,7 @@ import Clientes from "./components/Clientes";
 import Servicios from "./components/Servicios";
 import Diferentes from "./components/Diferentes";
 import Necesidades from "./components/Necesidades";
+import Funcionamos from "./components/Funcionamos";
 export default function Home() {
   return (
     <main className="flex flex-row justify-center">
@@ -15,6 +16,7 @@ export default function Home() {
         <Servicios />
         <Diferentes />
         <Necesidades />
+        <Funcionamos />
       </div>
 
     </main>
