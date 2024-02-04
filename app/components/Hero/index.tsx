@@ -10,8 +10,9 @@ const Hero = () => {
                     Cotiza con un experto
                 </a>
             </div>
-            <div>
-                <Image src="/hero.png" alt="Una cliente pensando en como puede mejorar la seguridad de su cafeteria" width={590} height={590} />
+            <div style={{ position: 'relative' }}>
+                <Image src="/engineers2.jpg" alt="Un par de ingenieros haciendo mantenimiento a las instalaciones de la zona" width={500} height={500} style={{ width: '500px', height: '500px', objectFit: 'cover' }} />
+                <div style={{ backgroundColor: '#1D2764', content: '', position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', opacity: 0.3 }}></div>
             </div>
         </div>
     );

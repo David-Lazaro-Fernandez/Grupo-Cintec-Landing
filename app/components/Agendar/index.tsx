@@ -9,7 +9,7 @@ const Agendar = () => {
         <h1 className="text-title font-bold text-primary">
             Agenda una llamada con nosotros
         </h1>
-        <CalendlyEmbed url="https://calendly.com/davidthelord/15-minutes-call" />
+        <CalendlyEmbed url="https://calendly.com/grupocintec/30min?back=1&month=2024-02" />
         </div>
     );
 }
