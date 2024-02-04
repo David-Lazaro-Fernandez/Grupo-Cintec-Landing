@@ -33,7 +33,7 @@ const Servicios = () => {
     return (
         <div className="flex flex-col items-center gap-20">
             <div className="flex flex-col items-center">
-                <p className="text-title font-bold">Nuestros Servicios</p>
+                <p className="text-title text-primary font-bold">Nuestros Servicios</p>
             </div>
             <div className="flex flex-col gap-24">
                 {serviceList.map((service, index) => {
@@ -57,9 +57,9 @@ const LeftService = ({ title, description, image, link }: { title: string, descr
         <div className="flex flex-row justify-evenly">
             <Image src={image} alt="Logo" width={400} height={400} />
             <div className='flex flex-col gap-6 w-1/2 justify-center items-start'>
-                <h1 className='text-title font-bold'>{title}</h1>
-                <p className='text-lg'>{description}</p>
-                <a href={link} className="rounded-full bg-[#13213C] hover:bg-[#46536B] transition duration-300 text-white py-3 px-6 text-lg">
+                <h1 className='text-title font-bold text-primary'>{title}</h1>
+                <p className='text-lg text-paper'>{description}</p>
+                <a href={link} className="rounded-full bg-secondary hover:bg-light transition duration-300 text-white py-3 px-6 text-lg">
                     Conoce más
                 </a>
             </div>
@@ -73,9 +73,9 @@ const RightService = ({ title, description, image, link }: { title: string, desc
     return (
         <div className="flex flex-row justify-evenly">
             <div className='flex flex-col gap-6 w-1/2 justify-center items-start'>
-                <h1 className='text-title font-bold'>{title}</h1>
-                <div className='text-lg'>{description}</div>
-                <a href={link} className="rounded-full bg-[#13213C] hover:bg-[#46536B] transition duration-300 text-white py-3 px-6 text-lg">
+                <h1 className='text-title text-primary font-bold'>{title}</h1>
+                <div className='text-lg text-paper'>{description}</div>
+                <a href={link} className="rounded-full bg-secondary hover:bg-light transition duration-300 text-white py-3 px-6 text-lg">
                     Conoce más
                 </a>
             </div>

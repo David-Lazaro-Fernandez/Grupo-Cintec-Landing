@@ -37,8 +37,8 @@ const Item = ({ icon, subtitle, desc }: { icon: string; subtitle: string; desc: 
     return (
         <div className="flex flex-col items-start gap-3 max-w-64">
             <Image src={icon} width={50} height={50} alt="Icon" />
-            <h3 className="text-xl font-bold">{subtitle}</h3>
-            <p className="text-sm">{desc}</p>
+            <h3 className="text-xl text-primary font-bold">{subtitle}</h3>
+            <p className="text-sm text-paper">{desc}</p>
         </div>
     );
 };
@@ -46,7 +46,7 @@ const Item = ({ icon, subtitle, desc }: { icon: string; subtitle: string; desc: 
 const Diferentes = () => {
     return (
         <div className="flex flex-col items-center gap-20">
-            <h3 className="text-title font-bold">Somos Diferentes</h3>
+            <h3 className="text-title font-bold text-primary">Somos Diferentes</h3>
             <div className="grid grid-cols-3 gap-12">
                 {diferenciadores.map((diferenciador, index) => (
                     <Item

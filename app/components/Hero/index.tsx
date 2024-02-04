@@ -6,7 +6,7 @@ const Hero = () => {
             <div className="flex flex-col justify-center items-start gap-7 w-1/2">
                 <p className='font-normal text-xl text-paper'>Servicios de confianza</p>
                 <h1 className='font-bold text-6xl w-3/4 text-primary'>Deja la seguridad de tu negocio en nuestras manos</h1>
-                <a href="#" className="rounded-full bg-secondary hover:bg-[#46536B]transition duration-300 text-white py-3 px-6 text-xl">
+                <a href="#" className="rounded-full bg-secondary hover:bg-light transition duration-300 text-white py-3 px-6 text-xl">
                     Cotiza con un experto
                 </a>
             </div>

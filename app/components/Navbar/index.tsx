@@ -9,7 +9,7 @@ const Navbar = () => {
                 <Item name='¿Cómo funcionamos?' link='#'/>
                 <Item name='Contáctanos' link='#'/>
             </ul>
-            <button className='rounded-full bg-secondary text-white py-1 w-36 h-9'>Cotiza ahora</button>
+            <button className='rounded-full bg-secondary hover:bg-light transition duration-300 text-white py-1 w-36 h-9'>Cotiza ahora</button>
         </nav>
     )
 }

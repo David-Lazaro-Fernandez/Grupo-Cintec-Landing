@@ -21,11 +21,11 @@ export default function Casos() {
     ]
     return (
         <section className="flex flex-col gap-12">
-            <div className="text-center text-title font-bold">Nos adaptamos a tus necesidades</div>
-            <article className='flex flex-row gap-32'>
+            <div className="text-center text-title font-bold text-primary">Nos adaptamos a tus necesidades</div>
+            <article className='flex flex-row justify-center gap-32'>
                 {info.map((info, index) => {
                     return (
-                        <div className="relative hover:cursor-pointer max-w-64">
+                        <div className="relative hover:cursor-pointer max-w-64" key={index}>
                             <Image src={info.image} alt="Descripción de la imagen" width={333} height={550} className="rounded-lg" />
 
                             <div className="h-full absolute inset-0 bg-black bg-opacity-60 flex flex-col justify-between items-start p-9 opacity-0 hover:opacity-100 transition-opacity duration-300">

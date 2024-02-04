@@ -21,6 +21,7 @@ const config: Config = {
         'secondary':'#F55019',
         'background':'#F3F5FF',
         'paper':'#9AA7C1',
+        'light':'#FFBDA8',
 
       },
       animation:{
