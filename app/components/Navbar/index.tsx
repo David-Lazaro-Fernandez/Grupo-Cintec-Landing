@@ -9,7 +9,7 @@ const Navbar = () => {
                 <Item name='¿Cómo funcionamos?' link='#'/>
                 <Item name='Contáctanos' link='#'/>
             </ul>
-            <button className='rounded-full bg-[#13213C] text-white py-1 w-36 h-9'>Cotiza ahora</button>
+            <button className='rounded-full bg-secondary text-white py-1 w-36 h-9'>Cotiza ahora</button>
         </nav>
     )
 }
@@ -19,7 +19,7 @@ const Item = ({ name, link }: { name: string, link: string }) => {
         <li>
             <a
                 href={link}
-                className='font-normal text-xl hover:text-[#afafaf] transition duration-300'
+                className='font-normal text-xl text-primary hover:text-paper transition duration-300'
             >
                 {name}
             </a>

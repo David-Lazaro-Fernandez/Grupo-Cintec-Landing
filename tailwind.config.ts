@@ -15,7 +15,27 @@ const config: Config = {
       },
       fontSize: {
         'title': '1.75rem',
+      },
+      colors:{
+        'primary':'#1D2764',
+        'secondary':'#F55019',
+        'background':'#F3F5FF',
+        'paper':'#9AA7C1',
+
+      },
+      animation:{
+        'horizontal-scroll': 'swipe 28s linear infinite backwards',
+        'spin-slow': 'spin 3s linear infi6nite',
+        
+      },
+      keyframes:{
+        'swipe':{
+          '0%':{transform: 'translate(0)'},
+          '100%':{transform: 'translate(-100%)'},
+          
+        }
       }
+       
     },
   },
   plugins: [],

@@ -3,6 +3,8 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Clientes from "./components/Clientes";
 import Servicios from "./components/Servicios";
+import Diferentes from "./components/Diferentes";
+import Necesidades from "./components/Necesidades";
 export default function Home() {
   return (
     <main className="flex flex-row justify-center">
@@ -11,6 +13,8 @@ export default function Home() {
         <Hero />
         <Clientes />
         <Servicios />
+        <Diferentes />
+        <Necesidades />
       </div>
 
     </main>
