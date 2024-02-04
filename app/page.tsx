@@ -7,6 +7,9 @@ import Diferentes from "./components/Diferentes";
 import Necesidades from "./components/Necesidades";
 import Funcionamos from "./components/Funcionamos";
 import Agendar from "./components/Agendar";
+import Proteger from "./components/Proteger";
+import Footer from "./components/Footer";
+
 export default function Home() {
   return (
     <main className="flex flex-row justify-center">
@@ -19,6 +22,8 @@ export default function Home() {
         <Necesidades />
         <Funcionamos />
         <Agendar />
+        <Proteger />
+        <Footer />
       </div>
 
     </main>
