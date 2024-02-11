@@ -3,13 +3,13 @@ import Image from "next/image";
 const diferenciadores = [
     {
         icon: '/xp.png',
-        subtitle: '+3 años de experiencia',
-        desc: 'Somos una empresa que sabe lo que necesitas y está aquí para ayudarte con ello.'
+        subtitle: 'Experiencia',
+        desc: 'Contamos con experiencia previa en los diferentes proyectos y servicios que ofrecemos.',
     },
     {
         icon: '/EC.png',
-        subtitle: 'Empresa Certificada',
-        desc: 'Cumplimos con cada una de las Certificaciones de Alta Demanda de la Industria.'
+        subtitle: 'Calidad Garantizada',
+        desc: 'Puedes contar con que tu proyecto contará con una excelente calidad.'
     },
     {
         icon: '/LR.png',
@@ -28,8 +28,8 @@ const diferenciadores = [
     },
     {
         icon: '/ER.png',
-        subtitle: 'Estamos regulados',
-        desc: 'Estamos regulados por medio de los organismos nacionales e internacionales responsables.'
+        subtitle: 'Flexibilidad',
+        desc: 'Nos adaptamos completamente a tus necesidades y posibilidades.'
     }
 ]
 
