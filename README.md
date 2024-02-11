@@ -111,8 +111,6 @@ Este proyecto utiliza [`next/font`](https://nextjs.org/docs/basic-features/font-
 ```
 
 
-Claro, puedo ayudarte a entender la estructura de tu proyecto en Next.js y qué suelen contener cada uno de esos elementos:
-
 1. **.next/**: Esta carpeta es generada automáticamente por Next.js. Contiene los archivos generados durante el proceso de construcción, como los archivos JavaScript y CSS optimizados para producción, así como otros artefactos de compilación. Es una carpeta que generalmente no necesitas modificar manualmente.
 
 2. **app/**: Esta carpeta es donde generalmente se encuentran los componentes y páginas específicos de tu aplicación. Puedes organizar los archivos como desees, pero lo común es tener subcarpetas para los componentes reutilizables y archivos de páginas individuales.
