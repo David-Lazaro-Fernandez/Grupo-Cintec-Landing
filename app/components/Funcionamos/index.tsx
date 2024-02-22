@@ -14,25 +14,25 @@ const Funcionamos = () => {
         {
             id: 0,
             title: 'Agenda una llamada',
-            content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, bibendum quam at, posuere neque.',
+            content: 'Durante la llamada solicitaremos tus datos de contacto, el tipo de proyecto que deseas solicitar y la ubicación donde será el proyecto. También puedes contactarnos por medio de Whatsapp.',
             img:'/funcionamos/Agendar.png',
         },
         {
             id: 1,
             title: 'Evaluación de tus necesidades',
-            content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, bibendum quam at, posuere neque.',
+            content: 'Realizamos una visita para evaluar el detalle de tus necesidades y el entorno para diseñar la mejor estrategia de instalación.',
             img:'/funcionamos/Visita.png',
         },
         {
             id: 2,
             title: 'Diseño de estrategias',
-            content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, bibendum quam at, posuere neque.',
+            content: 'De acuerdo a la estrategia diseñada, calculamos el costo total del proyecto y te lo presentamos desglosado. Si no estas conforme, podemos presentarte alternativas de acuerdo a tus necesidades y posibilidades',
             img:'/funcionamos/Cotizar.png',
         },
         {
             id: 3,
             title: 'Implementación de soluciones',
-            content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, bibendum quam at, posuere neque.',
+            content: 'En un horario que tu nos compartas, realizaremos la instalación de las soluciones presentadas en tu cotización.',
             img:'/funcionamos/Instalar.png',
         },
     ]
