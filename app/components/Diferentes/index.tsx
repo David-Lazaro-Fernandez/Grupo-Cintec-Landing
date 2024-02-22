@@ -18,7 +18,7 @@ const diferenciadores = [
     },
     {
         icon: '/CN.png',
-        subtitle: 'Continuidad de negocio',
+        subtitle: 'Enfoque al cliente',
         desc: 'Somos una empresa que sabe lo que necesitas y está aquí para ayudarte con ello.'
     },
     {
