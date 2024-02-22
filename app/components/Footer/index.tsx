@@ -6,21 +6,21 @@ export default function Footer() {
         {
             title: "Contáctanos",
             links: [
-                { text: "Torre WeWork Lázaro Cárdenas Av Lázaro Cárdenas 225, Valle Oriente, 66260 San Pedro Garza García", href: "#chat" },
+                { text: "Torre WeWork Lázaro Cárdenas Av Lázaro Cárdenas 225, Valle Oriente, 66260 San Pedro Garza García", href: "https://maps.app.goo.gl/WLuex1ixHJEUiDsy6" },
             ]
         },
         {
             title: "Atención al cliente",
             links: [
-                { text: "contacto@cintec.com", href: "#chat" },
-                { text: "Telefono:+5288127849", href: "#chat" },
-                { text: "Whatsapp:+5234234347", href: "#chat" },
+                { text: "contacto@cintec.com", href: "mailto:contacto@cintec.com" },
+                { text: "Telefono:+5288127849", href: "tel:+5288127849" },
+                { text: "Whatsapp:+5234234347", href: "tel:+5234234347" },
             ]
         },
         {
             title: "Brindamos soluciones en",
             links: [
-                { text: "Monterrey y area metropolitana", href: "#chat" },
+                { text: "Monterrey y area metropolitana", href: "https://maps.app.goo.gl/w5cPnXx3FgfmSnk3A" },
             ]
         },
     ];

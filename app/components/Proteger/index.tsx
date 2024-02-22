@@ -11,8 +11,18 @@ const Proteger = () => {
                     </p>
                 </div>
                 <div className="flex flex-col justify-center items-center gap-6">
-                    <button className='rounded-lg bg-secondary hover:bg-light transition duration-300 text-white py-1  px-6  h-16'>Agenda una reunion</button>
-                    <button className='rounded-lg bg-secondary hover:bg-light transition duration-300 text-white py-1  px-6  h-16'>Envíanos un mensaje</button>
+                    <a
+                        href="https://calendly.com/grupocintec/30min?back=1&month=2024-02"
+                        className='flex justify-center items-center rounded-lg bg-secondary hover:bg-light transition duration-300 text-white py-1  px-6  h-16'
+                    >
+                        Agenda una reunion
+                    </a>
+                    <a
+                        href="https://calendly.com/grupocintec/30min?back=1&month=2024-02"
+                        className='flex justify-center items-center rounded-lg bg-secondary hover:bg-light transition duration-300 text-white py-1  px-6  h-16'
+                    >
+                        Envíanos un mensaje
+                    </a>
                 </div>
             </section>
         </article>
