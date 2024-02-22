@@ -154,5 +154,16 @@ Para poder desplegar la app primero hay que asegurarse de que no tenga ningun ti
 Para poder construir la app hay que correr el siguiente comando
 
 ```bash
-npm run dev
+npm run build
 ```
+
+Si todo sale bien deberías ver una lista como esta 
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+ ✓ Linting and checking validity of types    
+ ✓ Collecting page data    
+ ✓ Generating static pages (5/5) 
+ ✓ Collecting build traces    
+ ✓ Finalizing page optimization
+
+ Y listo la página estará lista para producción 🚀
