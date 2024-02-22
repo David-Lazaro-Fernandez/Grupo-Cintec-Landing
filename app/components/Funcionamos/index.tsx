@@ -25,13 +25,13 @@ const Funcionamos = () => {
         },
         {
             id: 2,
-            title: 'Diseño de estrategias',
+            title: 'Cotización',
             content: 'De acuerdo a la estrategia diseñada, calculamos el costo total del proyecto y te lo presentamos desglosado. Si no estas conforme, podemos presentarte alternativas de acuerdo a tus necesidades y posibilidades',
             img:'/funcionamos/Cotizar.png',
         },
         {
             id: 3,
-            title: 'Implementación de soluciones',
+            title: 'Instalación',
             content: 'En un horario que tu nos compartas, realizaremos la instalación de las soluciones presentadas en tu cotización.',
             img:'/funcionamos/Instalar.png',
         },
